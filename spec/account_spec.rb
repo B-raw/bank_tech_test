@@ -18,4 +18,8 @@ describe Account do
     expect(subject.balance).to equal(50)
   end
 
+  it "keeps track of transactions" do
+    subject.deposit(100)
+  end
+
 end
